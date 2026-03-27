@@ -56,7 +56,7 @@ A subset of the dataset was used for efficient training.
 - Demonstrates limitation of dense layers for images  
 
 
-### 🔹 Stable Diffusion (Task 8-3)
+### 🔹 Stable Diffusion 
 
 - Pretrained text-to-image diffusion model  
 - Generates images from textual prompts  
