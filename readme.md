@@ -8,7 +8,6 @@ Implemented approaches:
 - Fully Connected GAN (MLP-GAN)
 - Stable Diffusion (text-to-image generation)
 
----
 
 ## Dataset
 
@@ -20,8 +19,6 @@ Implemented approaches:
   - Normalized pixel values
 
 A subset of the dataset was used for efficient training.
-
----
 
 ## Models
 
@@ -36,7 +33,6 @@ A subset of the dataset was used for efficient training.
 - Stable training  
 - Structured latent representation  
 
----
 
 ### 🔹 DCGAN (Convolutional GAN)
 
@@ -48,7 +44,6 @@ A subset of the dataset was used for efficient training.
 - Sharp and realistic images  
 - Captures spatial features effectively  
 
----
 
 ### 🔹 MLP-GAN (Fully Connected GAN)
 
@@ -60,7 +55,6 @@ A subset of the dataset was used for efficient training.
 - Weak spatial structure  
 - Demonstrates limitation of dense layers for images  
 
----
 
 ### 🔹 Stable Diffusion (Task 8-3)
 
@@ -77,7 +71,6 @@ A subset of the dataset was used for efficient training.
 - High-quality, detailed images  
 - Strong generalization without task-specific training  
 
----
 
 ## 📊 Comparison
 
@@ -88,7 +81,6 @@ A subset of the dataset was used for efficient training.
 | MLP-GAN         | Noisy        | Weak     | Random noise       |
 | Stable Diffusion| Very High    | Excellent| Text prompt        |
 
----
 
 ## Key Insights
 
@@ -98,7 +90,6 @@ A subset of the dataset was used for efficient training.
 - Fully connected networks are not suitable for image generation  
 - Diffusion models enable high-quality generation with semantic control via text  
 
----
 
 ## Tech Stack
 
@@ -106,13 +97,5 @@ A subset of the dataset was used for efficient training.
 - TensorFlow Probability  
 - NumPy, Matplotlib  
 - Stable Diffusion (pretrained model)
-
----
-
-## Example Outputs
-
-_Add generated images here (CVAE, GAN, Diffusion)_
-
----
 
 ## 📁 Project Structure
