@@ -1,0 +1,118 @@
+# 🚦 Traffic Sign Generation with CVAE, GANs, and Diffusion Models
+
+This project explores multiple generative modeling approaches using TensorFlow and modern diffusion models.
+
+Implemented approaches:
+- Convolutional Variational Autoencoder (CVAE)
+- Deep Convolutional GAN (DCGAN)
+- Fully Connected GAN (MLP-GAN)
+- Stable Diffusion (text-to-image generation)
+
+---
+
+## 📂 Dataset
+
+- **Dataset:** German Traffic Sign Recognition Benchmark (GTSRB)
+- Real-world traffic sign images
+- Preprocessing:
+  - Resized to 28×28
+  - Grayscale (for CVAE)
+  - Normalized pixel values
+
+A subset of the dataset was used for efficient training.
+
+---
+
+## 🧠 Models
+
+### 🔹 CVAE (Variational Autoencoder)
+
+- Convolutional encoder and decoder  
+- Gaussian latent space  
+- ELBO loss (reconstruction + KL divergence)  
+
+**Behavior:**
+- Smooth but blurry outputs  
+- Stable training  
+- Structured latent representation  
+
+---
+
+### 🔹 DCGAN (Convolutional GAN)
+
+- Convolutional generator and discriminator  
+- Noise input (100-dimensional)  
+- Adversarial training  
+
+**Behavior:**
+- Sharp and realistic images  
+- Captures spatial features effectively  
+
+---
+
+### 🔹 MLP-GAN (Fully Connected GAN)
+
+- Fully connected generator and discriminator  
+- Same training setup as DCGAN  
+
+**Behavior:**
+- Noisy outputs  
+- Weak spatial structure  
+- Demonstrates limitation of dense layers for images  
+
+---
+
+### 🔹 Stable Diffusion (Task 8-3)
+
+- Pretrained text-to-image diffusion model  
+- Generates images from textual prompts  
+
+**Usage:**
+- Prompt-based generation of visual content  
+- Example prompts:
+  - "a realistic traffic sign in snowy weather"
+  - "a futuristic road sign in a city"
+
+**Behavior:**
+- High-quality, detailed images  
+- Strong generalization without task-specific training  
+
+---
+
+## 📊 Comparison
+
+| Model            | Output Quality | Structure | Control Type       |
+|-----------------|--------------|----------|--------------------|
+| CVAE            | Smooth       | Good     | Latent space       |
+| DCGAN           | Sharp        | Strong   | Random noise       |
+| MLP-GAN         | Noisy        | Weak     | Random noise       |
+| Stable Diffusion| Very High    | Excellent| Text prompt        |
+
+---
+
+## 🔍 Key Insights
+
+- Convolutional architectures significantly improve image generation  
+- GANs produce sharper outputs due to adversarial learning  
+- VAEs provide structured latent representations but blur details  
+- Fully connected networks are not suitable for image generation  
+- Diffusion models enable high-quality generation with semantic control via text  
+
+---
+
+## 🛠️ Tech Stack
+
+- TensorFlow / Keras  
+- TensorFlow Probability  
+- NumPy, Matplotlib  
+- Stable Diffusion (pretrained model)
+
+---
+
+## 📸 Example Outputs
+
+_Add generated images here (CVAE, GAN, Diffusion)_
+
+---
+
+## 📁 Project Structure
