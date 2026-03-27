@@ -1,4 +1,4 @@
-# 🚦 Traffic Sign Generation with CVAE, GANs, and Diffusion Models
+# Traffic Sign Generation with CVAE, GANs, and Diffusion Models
 
 This project explores multiple generative modeling approaches using TensorFlow and modern diffusion models.
 
@@ -10,7 +10,7 @@ Implemented approaches:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Dataset:** German Traffic Sign Recognition Benchmark (GTSRB)
 - Real-world traffic sign images
@@ -23,7 +23,7 @@ A subset of the dataset was used for efficient training.
 
 ---
 
-## 🧠 Models
+## Models
 
 ### 🔹 CVAE (Variational Autoencoder)
 
@@ -90,7 +90,7 @@ A subset of the dataset was used for efficient training.
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - Convolutional architectures significantly improve image generation  
 - GANs produce sharper outputs due to adversarial learning  
@@ -100,7 +100,7 @@ A subset of the dataset was used for efficient training.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - TensorFlow / Keras  
 - TensorFlow Probability  
@@ -109,7 +109,7 @@ A subset of the dataset was used for efficient training.
 
 ---
 
-## 📸 Example Outputs
+## Example Outputs
 
 _Add generated images here (CVAE, GAN, Diffusion)_
 
