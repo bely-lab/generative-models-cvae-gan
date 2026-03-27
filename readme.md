@@ -1,4 +1,4 @@
-# Traffic Sign Generation with CVAE, GANs, and Diffusion Models
+## Traffic Sign Generation with CVAE, GANs, and Diffusion Models
 
 This project explores multiple generative modeling approaches using TensorFlow and modern diffusion models.
 
@@ -98,4 +98,9 @@ A subset of the dataset was used for efficient training.
 - NumPy, Matplotlib  
 - Stable Diffusion (pretrained model)
 
-## 📁 Project Structure
+## Project Structure
+- cvae_traffic_signs.ipynb
+- dcgan_traffic_signs.ipynb
+- mlp_gan_traffic_signs.ipynb
+- stable_diffusion_examples.ipynb
+- README.md
