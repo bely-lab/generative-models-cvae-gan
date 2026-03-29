@@ -13,10 +13,6 @@ Implemented approaches:
 
 - **Dataset:** German Traffic Sign Recognition Benchmark (GTSRB)
 - Real-world traffic sign images
-- Preprocessing:
-  - Resized to 28×28
-  - Grayscale (for CVAE)
-  - Normalized pixel values
 
 A subset of the dataset was used for efficient training.
 
@@ -101,6 +97,5 @@ A subset of the dataset was used for efficient training.
 ## Project Structure
 - cvae_traffic_signs.ipynb
 - dcgan_traffic_signs.ipynb
-- mlp_gan_traffic_signs.ipynb
 - stable_diffusion_examples.ipynb
 - README.md
