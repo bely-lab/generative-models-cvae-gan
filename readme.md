@@ -90,6 +90,6 @@ A subset of the dataset was used for efficient training.
 
 ## Project Structure
 - cvae_traffic_signs.ipynb
-- dcgan_traffic_signs.ipynb
+- dcgan_traffic_signs.ipynb: both dcgann and mlp gan
 - stable_diffusion_examples.ipynb
 - README.md
