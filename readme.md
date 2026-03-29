@@ -57,12 +57,6 @@ A subset of the dataset was used for efficient training.
 - Pretrained text-to-image diffusion model  
 - Generates images from textual prompts  
 
-**Usage:**
-- Prompt-based generation of visual content  
-- Example prompts:
-  - "a realistic traffic sign in snowy weather"
-  - "a futuristic road sign in a city"
-
 **Behavior:**
 - High-quality, detailed images  
 - Strong generalization without task-specific training  
