@@ -56,7 +56,7 @@ A subset of the dataset was used for efficient training.
 - High-quality, detailed images  
 - Strong generalization without task-specific training  
 
-## 📊 Comparison
+## Comparison
 
 | Model            | Output Quality | Structure | Control Type       |
 |-----------------|--------------|----------|--------------------|
@@ -74,7 +74,6 @@ A subset of the dataset was used for efficient training.
 - Diffusion models enable high-quality generation with semantic control via text  
 
 ## Tech Stack
-
 - TensorFlow / Keras  
 - TensorFlow Probability  
 - NumPy, Matplotlib  
