@@ -8,7 +8,6 @@ Implemented approaches:
 - Fully Connected GAN (MLP-GAN)
 - Stable Diffusion (text-to-image generation)
 
-
 ## Dataset
 
 - **Dataset:** German Traffic Sign Recognition Benchmark (GTSRB)
@@ -29,9 +28,7 @@ A subset of the dataset was used for efficient training.
 - Stable training  
 - Structured latent representation  
 
-
 ### 🔹 DCGAN (Convolutional GAN)
-
 - Convolutional generator and discriminator  
 - Noise input (100-dimensional)  
 - Adversarial training  
@@ -39,7 +36,6 @@ A subset of the dataset was used for efficient training.
 **Behavior:**
 - Sharp and realistic images  
 - Captures spatial features effectively  
-
 
 ### 🔹 MLP-GAN (Fully Connected GAN)
 
@@ -50,7 +46,6 @@ A subset of the dataset was used for efficient training.
 - Noisy outputs  
 - Weak spatial structure  
 - Demonstrates limitation of dense layers for images  
-
 
 ### 🔹 Stable Diffusion 
 
