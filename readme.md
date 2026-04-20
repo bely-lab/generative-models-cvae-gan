@@ -17,7 +17,7 @@ A subset of the dataset was used for efficient training.
 
 ## Models
 
-### 🔹 CVAE (Variational Autoencoder)
+### CVAE (Variational Autoencoder)
 
 - Convolutional encoder and decoder  
 - Gaussian latent space  
@@ -28,7 +28,7 @@ A subset of the dataset was used for efficient training.
 - Stable training  
 - Structured latent representation  
 
-### 🔹 DCGAN (Convolutional GAN)
+### DCGAN (Convolutional GAN)
 - Convolutional generator and discriminator  
 - Noise input (100-dimensional)  
 - Adversarial training  
@@ -37,7 +37,7 @@ A subset of the dataset was used for efficient training.
 - Sharp and realistic images  
 - Captures spatial features effectively  
 
-### 🔹 MLP-GAN (Fully Connected GAN)
+### MLP-GAN (Fully Connected GAN)
 
 - Fully connected generator and discriminator  
 - Same training setup as DCGAN  
