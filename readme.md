@@ -47,7 +47,7 @@ A subset of the dataset was used for efficient training.
 - Weak spatial structure  
 - Demonstrates limitation of dense layers for images  
 
-### 🔹 Stable Diffusion 
+### Stable Diffusion 
 
 - Pretrained text-to-image diffusion model  
 - Generates images from textual prompts  
@@ -55,7 +55,6 @@ A subset of the dataset was used for efficient training.
 **Behavior:**
 - High-quality, detailed images  
 - Strong generalization without task-specific training  
-
 
 ## 📊 Comparison
 
