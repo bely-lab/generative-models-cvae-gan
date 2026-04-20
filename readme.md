@@ -65,7 +65,6 @@ A subset of the dataset was used for efficient training.
 | MLP-GAN         | Noisy        | Weak     | Random noise       |
 | Stable Diffusion| Very High    | Excellent| Text prompt        |
 
-
 ## Key Insights
 
 - Convolutional architectures significantly improve image generation  
@@ -73,7 +72,6 @@ A subset of the dataset was used for efficient training.
 - VAEs provide structured latent representations but blur details  
 - Fully connected networks are not suitable for image generation  
 - Diffusion models enable high-quality generation with semantic control via text  
-
 
 ## Tech Stack
 
