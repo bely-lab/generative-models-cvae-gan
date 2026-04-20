@@ -12,8 +12,7 @@ Implemented approaches:
 
 - **Dataset:** German Traffic Sign Recognition Benchmark (GTSRB)
 - Real-world traffic sign images
-
-A subset of the dataset was used for efficient training.
+- A subset of the dataset was used for efficient training.
 
 ## Models
 
