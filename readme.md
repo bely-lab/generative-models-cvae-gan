@@ -77,9 +77,3 @@ Implemented approaches:
 - TensorFlow Probability  
 - NumPy, Matplotlib  
 - Stable Diffusion (pretrained model)
-
-## Project Structure
-- cvae_traffic_signs.ipynb
-- dcgan_traffic_signs.ipynb: both dcgann and mlp gan
-- stable_diffusion_examples.ipynb
-- README.md
