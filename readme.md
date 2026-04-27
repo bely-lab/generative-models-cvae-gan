@@ -29,7 +29,7 @@ Implemented approaches:
 
 ### DCGAN (Convolutional GAN)
 - Convolutional generator and discriminator  
-- Noise input (100-dimensional)  
+- Noise input 
 - Adversarial training  
 
 **Behavior:**
