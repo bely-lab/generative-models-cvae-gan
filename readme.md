@@ -76,4 +76,4 @@ Implemented approaches:
 - TensorFlow / Keras  
 - TensorFlow Probability  
 - NumPy, Matplotlib  
-- Stable Diffusion (pretrained model)
+- Stable Diffusion 
